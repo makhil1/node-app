@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('<h1 style="color:red;">Akhi Node App - CI/CD Codepipeline-1234!!</h1> \n');
+  res.send('<h1 style="color:red;">Akhil Node App - CI/CD Codepipeline-1234!!</h1> \n');
 });
 
 app.listen(PORT, HOST);
